@@ -14,7 +14,7 @@ def deploy():
     Skip = Professor(name='Skip', department='Accounting & MIS')
     Professor_Davis = Professor(name="Professor Davis", department= "Finance")
     course1 = Course(number='MISY350', title="Application Development", description= "JS,CSS,HTML,GitHub,Python", professor=Harry)
-    course2 = Course(number='BUAD447', title="Data Analysis Quality Control", description="Statistical approach to operation management", professor=Professor_Hubert)
+    course2 = Course(number='BUAD447', title="Data Analysis Quality Control", description="Statistical approach to operations management", professor=Professor_Hubert)
     course3 = Course(number='BUAD446', title="Operations and Supply Chains", description="Learn about planning and contol in operations management", professor=Professor_Davis)
     course4 = Course(number='MISY430', title="Systems Analysis and Implementation", description="Further your knowledge in database design and application concepts", professor=Skip)
     db.session.add(Harry)
